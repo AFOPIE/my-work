@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>ADNET CARE</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            body {
+                background-image: url("bot.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .bo{
+                margin-left: 300px;
+                margin-top: 200px;
+            }
+            .ba{
+                margin-left: 450px;
+                margin-top: 76px;
+            }
+        
+            
+        </style>
+    </head>
+    <body>
+        <div class="w3-bar  w3-grey">
+            <a href="#" class="w3-bar-item w3-button w3-green">HOME</a>
+            <a href="#" class="w3-bar-item w3-button">CONSULT</a>
+            <a href="#" class="w3-bar-item w3-button">DOCTOR</a>
+            <a href="#" class="w3-bar-item w3-button">SHARE</a>
+            <a href="#" class="w3-bar-item w3-button">BOOKLET</a>
+            <a href="#" class="w3-bar-item w3-button">NEWS</a>
+            <a href="#" class="w3-bar-item w3-button">CONTACT</a>
+        </div>
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display: none" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large"> Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button">Profile</a>
+            <a href="#" class="w3-bar-item w3-button">Notification</a>
+            <a href="#" class="w3-bar-item w3-button">Setting</a>
+            <a href="#" class="w3-bar-item w3-button">Help</a>
+        </div>
+        <div>
+            <button class="w3-button" onclick="w3_open()">=></button>
+        </div>
+        <div class="bo"><h1> <strong> ADNET CARE. LIVE A HEALTHY LIFE </strong></h1>
+            <p><i> We care about you because your health is our priority </i></p>
+        </div>
+        <div class="ba">    
+            <button class="w3-button w3-round w3-green" >DOCTOR</button>
+            <button class="w3-button w3-round w3-green">PATIENT</button>
+        </div>
+        <script>
+            function w3_open() {
+                document.getElementById("mysidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementId("mysidebar").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
